@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAL1xYGckFznvJVWTzBwvpwPxUwj_JlQHk",
+    authDomain: "paint-379fc.firebaseapp.com",
+    databaseURL: "https://paint-379fc.firebaseio.com",
+    projectId: "paint-379fc",
+    storageBucket: "paint-379fc.appspot.com",
+    messagingSenderId: "545539900940",
+    appId: "1:545539900940:web:f7a81a4cba335f065e9029"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <div id ="canvascontainer"></div>
+
+    <ol id ="drawinglist">
+    </ol>
+  </body>
+</html>
